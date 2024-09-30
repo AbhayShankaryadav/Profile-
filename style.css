@@ -1,0 +1,105 @@
+
+body{
+    text-align: center;
+    background-color: rgb(34, 33, 32);
+    }
+.circle1{
+    position: fixed;
+    inset-block-start:5%;
+    inset-inline-start: 30%;
+    block-size:13em;
+    inline-size:13em;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 20px  rgb(173, 62, 14);
+    background:rgb(173, 62, 14);
+}
+.circle2{
+    position: fixed;
+    inset-block-end:5%;
+    inset-inline-end: 30%;
+    inline-size: 13em;
+    block-size:13em;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 20px rgb(112, 77, 218);
+    background:rgb(112, 77, 218);
+}
+
+
+
+
+.mainbox{
+    position: absolute;
+    inset-block-start: 50%;
+    inset-inline-start: 50%;
+    translate: -50% -50%;
+    block-size: 450px;
+    border: 2px solid #ffffff30;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff1a;
+    backdrop-filter: blur(15px); 
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 20px 50px;
+    
+
+
+}
+.containt{
+    text-align: center;
+   
+    
+}
+
+img{
+    border-radius: 1200px;
+    block-size: 150px;
+    inline-size: 150px;
+    border: 2px solid #ffffffb9;
+}
+h2{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+.ABC{
+    text-transform: capitalize;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    justify-items: center;
+
+}
+.btn-share{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    gap: 7px;
+    padding: 9px 12px;
+    background-color: #ffffff00;
+    border: 2px solid #ffffffb9;
+    text-transform: capitalize;
+    border-radius: 4px;
+    color: #ffffffb9;
+    cursor:pointer;
+}
+.btn-follow{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 7px;
+    padding: 9px 12px;
+    background-color: #ffffff00;
+    border: 2px solid #ffffffb9;
+    text-transform: capitalize;
+    border-radius: 4px;
+    color: #ffffffb9;
+    cursor:pointer;
+
+}
